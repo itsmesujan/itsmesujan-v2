@@ -3,7 +3,7 @@
     "path": "/",
     "samples": [
       {
-        "t": 1156,
+        "t": 916,
         "present": true,
         "cls": "boot",
         "opacity": "1",
@@ -17,7 +17,7 @@
         }
       },
       {
-        "t": 1320,
+        "t": 1312,
         "present": true,
         "cls": "boot",
         "opacity": "1",
@@ -31,10 +31,10 @@
         }
       },
       {
-        "t": 1718,
+        "t": 1416,
         "present": true,
         "cls": "boot",
-        "opacity": "1",
+        "opacity": "0.268278",
         "pointerEvents": "none",
         "covers": true,
         "status": "itsmesujan.",
@@ -45,10 +45,10 @@
         }
       },
       {
-        "t": 1826,
+        "t": 1683,
         "present": true,
         "cls": "boot",
-        "opacity": "0.00151967",
+        "opacity": "0.104829",
         "pointerEvents": "none",
         "covers": true,
         "status": "itsmesujan.",
@@ -59,23 +59,23 @@
         }
       },
       {
-        "t": 2155,
+        "t": 1789,
         "present": false
       },
       {
-        "t": 2291,
+        "t": 1893,
         "present": false
       }
     ],
     "issues": [],
-    "unmounted": 2155,
-    "lastBlocking": 1156
+    "unmounted": 1789,
+    "lastBlocking": 916
   },
   {
     "path": "/work",
     "samples": [
       {
-        "t": 531,
+        "t": 401,
         "present": true,
         "cls": "boot",
         "opacity": "1",
@@ -89,7 +89,7 @@
         }
       },
       {
-        "t": 647,
+        "t": 506,
         "present": true,
         "cls": "boot",
         "opacity": "1",
@@ -103,10 +103,10 @@
         }
       },
       {
-        "t": 806,
+        "t": 631,
         "present": true,
         "cls": "boot",
-        "opacity": "0.184568",
+        "opacity": "0.700507",
         "pointerEvents": "none",
         "covers": true,
         "status": "itsmesujan.",
@@ -117,10 +117,10 @@
         }
       },
       {
-        "t": 910,
+        "t": 735,
         "present": true,
         "cls": "boot",
-        "opacity": "0.04832",
+        "opacity": "0.0714931",
         "pointerEvents": "none",
         "covers": true,
         "status": "itsmesujan.",
@@ -131,10 +131,10 @@
         }
       },
       {
-        "t": 1015,
+        "t": 837,
         "present": true,
         "cls": "boot",
-        "opacity": "0.0130362",
+        "opacity": "0.0207992",
         "pointerEvents": "none",
         "covers": true,
         "status": "itsmesujan.",
@@ -145,10 +145,10 @@
         }
       },
       {
-        "t": 1126,
+        "t": 940,
         "present": true,
         "cls": "boot",
-        "opacity": "0.00152897",
+        "opacity": "0.00437571",
         "pointerEvents": "none",
         "covers": true,
         "status": "itsmesujan.",
@@ -159,19 +159,33 @@
         }
       },
       {
-        "t": 1246,
+        "t": 1053,
+        "present": true,
+        "cls": "boot",
+        "opacity": "0.000349453",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 1155,
         "present": false
       }
     ],
     "issues": [],
-    "unmounted": 1246,
-    "lastBlocking": 531
+    "unmounted": 1155,
+    "lastBlocking": 401
   },
   {
     "path": "/contact",
     "samples": [
       {
-        "t": 594,
+        "t": 354,
         "present": true,
         "cls": "boot",
         "opacity": "1",
@@ -185,24 +199,24 @@
         }
       },
       {
-        "t": 744,
+        "t": 481,
         "present": true,
         "cls": "boot",
         "opacity": "1",
-        "pointerEvents": "none",
+        "pointerEvents": "auto",
         "covers": true,
         "status": "itsmesujan.",
         "hitTest": {
           "button": "Work",
-          "hit": "span.",
-          "reachesButton": true
+          "hit": "div.boot",
+          "reachesButton": false
         }
       },
       {
-        "t": 1332,
+        "t": 1102,
         "present": true,
         "cls": "boot",
-        "opacity": "0.839029",
+        "opacity": "0.840657",
         "pointerEvents": "none",
         "covers": true,
         "status": "itsmesujan.",
@@ -213,20 +227,20 @@
         }
       },
       {
-        "t": 1445,
+        "t": 1205,
         "present": false
       },
       {
-        "t": 1563,
+        "t": 1336,
         "present": false
       },
       {
-        "t": 1664,
+        "t": 1458,
         "present": false
       }
     ],
     "issues": [],
-    "unmounted": 1445,
-    "lastBlocking": 594
+    "unmounted": 1205,
+    "lastBlocking": 481
   }
 ]

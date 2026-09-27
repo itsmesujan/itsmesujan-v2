@@ -1,6 +1,6 @@
 {
-  "base": "http://localhost:4180",
-  "when": "2026-09-27T10:32:27.814Z",
+  "base": "https://itsmesujan-v2.vercel.app",
+  "when": "2026-09-27T10:59:36.828Z",
   "runs": [
     {
       "route": "/",
@@ -16,56 +16,56 @@
         {
           "tag": "ul",
           "cls": "marquee__row",
-          "left": -234,
-          "right": 2840
+          "left": -224,
+          "right": 2851
         },
         {
           "tag": "li",
           "cls": "",
-          "left": -234,
-          "right": -48
+          "left": -224,
+          "right": -37
         },
         {
           "tag": "span",
           "cls": "marquee__item",
-          "left": -234,
-          "right": -95
+          "left": -224,
+          "right": -84
         },
         {
           "tag": "span",
           "cls": "marquee__sep",
-          "left": -63,
-          "right": -48
+          "left": -52,
+          "right": -37
         },
         {
           "tag": "li",
           "cls": "",
-          "left": -16,
-          "right": 171
+          "left": -5,
+          "right": 181
         },
         {
           "tag": "span",
           "cls": "marquee__item",
-          "left": -16,
-          "right": 124
+          "left": -5,
+          "right": 135
         },
         {
           "tag": "li",
           "cls": "",
-          "left": 1303,
-          "right": 1490
+          "left": 1314,
+          "right": 1500
         },
         {
           "tag": "span",
           "cls": "marquee__item",
-          "left": 1303,
-          "right": 1443
+          "left": 1314,
+          "right": 1453
         },
         {
           "tag": "span",
           "cls": "marquee__sep",
-          "left": 1475,
-          "right": 1490
+          "left": 1485,
+          "right": 1500
         }
       ],
       "smallTargets": [],
@@ -89,7 +89,7 @@
         "w": 1440,
         "h": 900
       },
-      "shotBytes": 266128,
+      "shotBytes": 264647,
       "focus": {
         "tag": "a",
         "text": "Skip to content",
@@ -124,7 +124,7 @@
         "w": 1440,
         "h": 792
       },
-      "shotBytes": 439128,
+      "shotBytes": 439059,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/work-desktop.png"
@@ -155,7 +155,7 @@
         "w": 1440,
         "h": 900
       },
-      "shotBytes": 616898,
+      "shotBytes": 616743,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/case-devpilot-desktop.png"
@@ -186,7 +186,7 @@
         "w": 718,
         "h": 539
       },
-      "shotBytes": 42290,
+      "shotBytes": 38404,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/lab-desktop.png"
@@ -217,7 +217,7 @@
         "w": 1440,
         "h": 792
       },
-      "shotBytes": 102017,
+      "shotBytes": 102169,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/about-desktop.png"
@@ -248,7 +248,7 @@
         "w": 1440,
         "h": 720
       },
-      "shotBytes": 67188,
+      "shotBytes": 67284,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/contact-desktop.png"
@@ -274,7 +274,7 @@
         "headlineOpacity": null
       },
       "sceneBox": null,
-      "shotBytes": 83483,
+      "shotBytes": 83428,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/404-desktop.png"
@@ -293,56 +293,56 @@
         {
           "tag": "ul",
           "cls": "marquee__row",
-          "left": -206,
-          "right": 2790
+          "left": -205,
+          "right": 2792
         },
         {
           "tag": "li",
           "cls": "",
-          "left": -206,
-          "right": -25
+          "left": -205,
+          "right": -24
         },
         {
           "tag": "span",
           "cls": "marquee__item",
-          "left": -206,
-          "right": -71
+          "left": -205,
+          "right": -70
         },
         {
           "tag": "span",
           "cls": "marquee__sep",
-          "left": -39,
-          "right": -25
+          "left": -38,
+          "right": -24
         },
         {
           "tag": "li",
           "cls": "",
-          "left": 709,
-          "right": 984
+          "left": 711,
+          "right": 986
         },
         {
           "tag": "span",
           "cls": "marquee__item",
-          "left": 709,
-          "right": 938
+          "left": 711,
+          "right": 939
         },
         {
           "tag": "span",
           "cls": "marquee__sep",
-          "left": 970,
-          "right": 984
+          "left": 971,
+          "right": 986
         },
         {
           "tag": "li",
           "cls": "",
-          "left": 1016,
-          "right": 1260
+          "left": 1018,
+          "right": 1261
         },
         {
           "tag": "span",
           "cls": "marquee__item",
-          "left": 1016,
-          "right": 1213
+          "left": 1018,
+          "right": 1215
         }
       ],
       "smallTargets": [],
@@ -366,7 +366,7 @@
         "w": 834,
         "h": 1112
       },
-      "shotBytes": 207246,
+      "shotBytes": 222248,
       "focus": {
         "tag": "a",
         "text": "Skip to content",
@@ -432,7 +432,7 @@
         "w": 834,
         "h": 1112
       },
-      "shotBytes": 438403,
+      "shotBytes": 438693,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/case-devpilot-tablet.png"
@@ -463,7 +463,7 @@
         "w": 767,
         "h": 575
       },
-      "shotBytes": 88422,
+      "shotBytes": 85162,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/lab-tablet.png"
@@ -525,7 +525,7 @@
         "w": 834,
         "h": 890
       },
-      "shotBytes": 42572,
+      "shotBytes": 42637,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/contact-tablet.png"
@@ -570,56 +570,56 @@
         {
           "tag": "ul",
           "cls": "marquee__row",
-          "left": -182,
-          "right": 2694
+          "left": -205,
+          "right": 2670
         },
         {
           "tag": "li",
           "cls": "",
-          "left": -182,
-          "right": -9
+          "left": -205,
+          "right": -32
         },
         {
           "tag": "span",
           "cls": "marquee__item",
-          "left": -182,
-          "right": -54
+          "left": -205,
+          "right": -77
         },
         {
           "tag": "span",
           "cls": "marquee__sep",
-          "left": -22,
-          "right": -9
+          "left": -45,
+          "right": -32
         },
         {
           "tag": "li",
           "cls": "",
-          "left": 229,
-          "right": 392
-        },
-        {
-          "tag": "span",
-          "cls": "marquee__sep",
-          "left": 378,
-          "right": 392
-        },
-        {
-          "tag": "li",
-          "cls": "",
-          "left": 424,
-          "right": 666
+          "left": 401,
+          "right": 643
         },
         {
           "tag": "span",
           "cls": "marquee__item",
-          "left": 424,
-          "right": 620
+          "left": 401,
+          "right": 597
         },
         {
           "tag": "span",
           "cls": "marquee__sep",
-          "left": 652,
-          "right": 666
+          "left": 629,
+          "right": 643
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "left": 675,
+          "right": 936
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__item",
+          "left": 675,
+          "right": 891
         }
       ],
       "smallTargets": [],
@@ -643,7 +643,7 @@
         "w": 390,
         "h": 844
       },
-      "shotBytes": 311924,
+      "shotBytes": 313711,
       "focus": {
         "tag": "a",
         "text": "Skip to content",
@@ -709,7 +709,7 @@
         "w": 390,
         "h": 844
       },
-      "shotBytes": 582002,
+      "shotBytes": 581039,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/case-devpilot-mobile.png"
@@ -740,7 +740,7 @@
         "w": 353,
         "h": 265
       },
-      "shotBytes": 117432,
+      "shotBytes": 104908,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/lab-mobile.png"
@@ -771,7 +771,7 @@
         "w": 390,
         "h": 811
       },
-      "shotBytes": 169974,
+      "shotBytes": 169807,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/about-mobile.png"
@@ -802,7 +802,7 @@
         "w": 390,
         "h": 675
       },
-      "shotBytes": 57513,
+      "shotBytes": 57364,
       "focus": null,
       "errors": [],
       "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/contact-mobile.png"
