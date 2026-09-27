@@ -1,0 +1,232 @@
+[
+  {
+    "path": "/",
+    "samples": [
+      {
+        "t": 1156,
+        "present": true,
+        "cls": "boot",
+        "opacity": "1",
+        "pointerEvents": "auto",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "div.boot",
+          "reachesButton": false
+        }
+      },
+      {
+        "t": 1320,
+        "present": true,
+        "cls": "boot",
+        "opacity": "1",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 1718,
+        "present": true,
+        "cls": "boot",
+        "opacity": "1",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 1826,
+        "present": true,
+        "cls": "boot",
+        "opacity": "0.00151967",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 2155,
+        "present": false
+      },
+      {
+        "t": 2291,
+        "present": false
+      }
+    ],
+    "issues": [],
+    "unmounted": 2155,
+    "lastBlocking": 1156
+  },
+  {
+    "path": "/work",
+    "samples": [
+      {
+        "t": 531,
+        "present": true,
+        "cls": "boot",
+        "opacity": "1",
+        "pointerEvents": "auto",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "div.boot",
+          "reachesButton": false
+        }
+      },
+      {
+        "t": 647,
+        "present": true,
+        "cls": "boot",
+        "opacity": "1",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 806,
+        "present": true,
+        "cls": "boot",
+        "opacity": "0.184568",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 910,
+        "present": true,
+        "cls": "boot",
+        "opacity": "0.04832",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 1015,
+        "present": true,
+        "cls": "boot",
+        "opacity": "0.0130362",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 1126,
+        "present": true,
+        "cls": "boot",
+        "opacity": "0.00152897",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 1246,
+        "present": false
+      }
+    ],
+    "issues": [],
+    "unmounted": 1246,
+    "lastBlocking": 531
+  },
+  {
+    "path": "/contact",
+    "samples": [
+      {
+        "t": 594,
+        "present": true,
+        "cls": "boot",
+        "opacity": "1",
+        "pointerEvents": "auto",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "div.boot",
+          "reachesButton": false
+        }
+      },
+      {
+        "t": 744,
+        "present": true,
+        "cls": "boot",
+        "opacity": "1",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 1332,
+        "present": true,
+        "cls": "boot",
+        "opacity": "0.839029",
+        "pointerEvents": "none",
+        "covers": true,
+        "status": "itsmesujan.",
+        "hitTest": {
+          "button": "Work",
+          "hit": "span.",
+          "reachesButton": true
+        }
+      },
+      {
+        "t": 1445,
+        "present": false
+      },
+      {
+        "t": 1563,
+        "present": false
+      },
+      {
+        "t": 1664,
+        "present": false
+      }
+    ],
+    "issues": [],
+    "unmounted": 1445,
+    "lastBlocking": 594
+  }
+]

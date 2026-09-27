@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# Compiler output next to sources. tsconfig sets noEmit, but a stray
+# `tsc --noEmit false` can still drop these into src/.
+src/**/*.js
+src/**/*.d.ts
+src/**/*.js.map
+*.tsbuildinfo
+
+# build output
+dist/
+
+# 4K image masters — regenerate with `pnpm assets`, never commit
+.masters/
+
+# probe scratch
+.probe/
+
+# QA artefacts (screenshots + json reports) — regenerate with the qa scripts
+qa/*.png
+qa-probe.png
+qa-run.log
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# editors + OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "mobile sheet: focus + escape",
+    "issues": [],
+    "detail": "focus→Work, tab→GitHub ↗"
+  },
+  {
+    "name": "contact form validation",
+    "issues": [],
+    "detail": "empty→3 errors, valid→0"
+  },
+  {
+    "name": "work filters narrow the DOM",
+    "issues": [],
+    "detail": "6 → 3 (Showing 3 of 6)"
+  },
+  {
+    "name": "lab slider changes the shader",
+    "issues": [],
+    "detail": "k 1.62 → 1.92 (1.92), undefinedxundefined"
+  },
+  {
+    "name": "per-route SEO metadata",
+    "issues": [],
+    "detail": "7 unique titles, JSON-LD on all"
+  },
+  {
+    "name": "keyboard traversal + focus",
+    "issues": [],
+    "detail": "31 stops, first a:Skip to content → a:itsmesujan — home → a:Work → a:Lab → a:About"
+  }
+]

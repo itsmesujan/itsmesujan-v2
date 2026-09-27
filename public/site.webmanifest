@@ -1,0 +1,12 @@
+{
+  "name": "itsmesujan",
+  "short_name": "itsmesujan",
+  "description": "AI-native builder — agent systems, model routing and real-time 3D interfaces.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07080a",
+  "theme_color": "#07080a",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

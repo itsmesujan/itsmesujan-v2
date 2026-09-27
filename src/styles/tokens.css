@@ -1,0 +1,368 @@
+/* =========================================================================
+   itsmesujan — design tokens + primitives
+   Palette rationale: carbon void, bone paper, one signal orange.
+   The bright orange is a LIGHT/EMBERS token only. Any orange used as text or
+   a thin rule uses --signal-ink (#cc380a, 5.4:1 on carbon) so small type
+   clears WCAG AA. Verify with the contrast checker in scripts/.
+   ========================================================================= */
+
+:root {
+  /* surfaces */
+  --void: #07080a;
+  --carbon: #0d0f12;
+  --slate: #14171b;
+  --graphite: #1d2126;
+  --edge: #2a2f36;
+  --edge-soft: #1b1e23;
+
+  /* ink */
+  --bone: #f2efe8;
+  --bone-dim: #b9b6ae;
+  --bone-mute: #8b8a85;
+  --bone-faint: #7d7c78; /* 4.80:1 on void — still AA for small text */
+
+  /* signal */
+  --signal: #ff4d1c; /* embers, glow, rules >=3px, non-text */
+  --signal-ink: #e8562a; /* text on void: 5.53:1 — passes AA */
+  --signal-ink-strong: #f26a35; /* small text needing extra headroom: 6.57:1 */
+  --signal-ink-paper: #a82c07; /* text on bone: 6.06:1 */
+  --verify: #34c77b; /* verified/open-source marker: 9.16:1 on void */
+
+  /* type */
+  --display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Mono', monospace;
+
+  --step--2: clamp(0.66rem, 0.64rem + 0.1vw, 0.72rem);
+  --step--1: clamp(0.78rem, 0.75rem + 0.14vw, 0.86rem);
+  --step-0: clamp(0.95rem, 0.91rem + 0.2vw, 1.05rem);
+  --step-1: clamp(1.15rem, 1.07rem + 0.4vw, 1.4rem);
+  --step-2: clamp(1.45rem, 1.28rem + 0.85vw, 2rem);
+  --step-3: clamp(1.9rem, 1.55rem + 1.7vw, 3rem);
+  --step-4: clamp(2.6rem, 1.9rem + 3.4vw, 5rem);
+  --step-5: clamp(3.4rem, 2.1rem + 6.2vw, 8.5rem);
+
+  /* space */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4.5rem;
+  --sp-9: 7rem;
+  --sp-10: 11rem;
+
+  --gutter: clamp(1.1rem, 4vw, 4.5rem);
+  --measure: 62ch;
+  --maxw: 1560px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur: 0.62s;
+
+  --hair: 1px solid var(--edge);
+  --z-scene: 0;
+  --z-content: 10;
+  --z-chrome: 40;
+  --z-overlay: 60;
+  --z-boot: 90;
+}
+
+/* ---- reset ------------------------------------------------------------ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: auto;
+}
+body {
+  min-height: 100svh;
+  background: var(--void);
+  color: var(--bone);
+  font-family: var(--display);
+  font-size: var(--step-0);
+  line-height: 1.55;
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+img,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+img {
+  height: auto;
+  background-color: var(--carbon);
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+::selection {
+  background: var(--signal);
+  color: var(--void);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+summary {
+  cursor: pointer;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* ---- shared type utilities -------------------------------------------- */
+.mono {
+  font-family: var(--mono);
+  font-size: var(--step--1);
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+}
+.eyebrow {
+  font-family: var(--mono);
+  font-size: var(--step--2);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--bone-mute);
+}
+.ink-signal {
+  color: var(--signal-ink);
+}
+.ink-mute {
+  color: var(--bone-mute);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---- layout primitives ------------------------------------------------ */
+.shell {
+  width: min(100% - var(--gutter) * 2, var(--maxw));
+  margin-inline: auto;
+}
+.shell--wide {
+  width: min(100% - var(--gutter) * 1.2, var(--maxw));
+}
+.section {
+  position: relative;
+  padding-block: var(--sp-9);
+}
+.rule {
+  height: 1px;
+  background: var(--edge-soft);
+  border: 0;
+}
+
+/* ---- buttons ---------------------------------------------------------- */
+.btn {
+  --btn-fg: var(--bone);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-3);
+  min-height: 44px;
+  padding: 0.82em 1.5em;
+  border: 1px solid var(--edge);
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--carbon) 80%, transparent);
+  color: var(--btn-fg);
+  font-family: var(--mono);
+  font-size: var(--step--1);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  transition:
+    border-color 0.35s var(--ease-out),
+    color 0.35s var(--ease-out),
+    transform 0.35s var(--ease-out);
+}
+.btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--signal);
+  transform: translateY(101%);
+  transition: transform 0.5s var(--ease-out);
+}
+.btn:hover,
+.btn:focus-visible {
+  border-color: var(--signal);
+  color: var(--void);
+}
+.btn:hover::after,
+.btn:focus-visible::after {
+  transform: translateY(0);
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn--solid {
+  background: var(--signal);
+  border-color: var(--signal);
+  color: var(--void);
+  font-weight: 500;
+}
+.btn--solid::after {
+  background: var(--bone);
+}
+.btn--solid:hover,
+.btn--solid:focus-visible {
+  color: var(--void);
+}
+.btn--ghost {
+  background: transparent;
+  border-color: transparent;
+  padding-inline: 0.35em;
+  border-radius: 0;
+}
+.btn--ghost::after {
+  display: none;
+}
+.btn--ghost:hover {
+  color: var(--signal-ink);
+  border-color: transparent;
+}
+.btn__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  flex: none;
+}
+
+/* ---- tag / chip ------------------------------------------------------- */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: 0.3em 0.7em;
+  border: var(--hair);
+  border-radius: 3px;
+  font-family: var(--mono);
+  font-size: var(--step--2);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bone-dim);
+  white-space: nowrap;
+}
+.chip--live {
+  border-color: color-mix(in oklab, var(--verify) 45%, transparent);
+  color: var(--verify);
+}
+.chip--live .chip__dot {
+  background: var(--verify);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--verify) 18%, transparent);
+}
+.chip__dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+  flex: none;
+}
+
+/* ---- reveal (JS adds .is-in; no-JS keeps content visible) ------------- */
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 1.35rem, 0);
+  transition:
+    opacity 0.9s var(--ease-out),
+    transform 0.9s var(--ease-out);
+  transition-delay: var(--reveal-delay, 0s);
+}
+.reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+.no-js .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.noscript {
+  max-width: 46ch;
+  margin: 22vh auto;
+  padding: var(--sp-6);
+  border: var(--hair);
+  border-radius: 6px;
+  font-family: var(--mono);
+  line-height: 1.7;
+}
+.noscript h1 {
+  font-family: var(--display);
+  font-size: var(--step-3);
+  margin-bottom: var(--sp-4);
+}
+.noscript a {
+  color: var(--signal-ink);
+  text-decoration: underline;
+}
+
+/* ---- reduced motion: strip loops, pinning, parallax, autoplay --------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

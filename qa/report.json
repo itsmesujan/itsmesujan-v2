@@ -1,0 +1,837 @@
+{
+  "base": "http://localhost:4180",
+  "when": "2026-09-27T10:32:27.814Z",
+  "runs": [
+    {
+      "route": "/",
+      "viewport": "desktop",
+      "overflowX": 0,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "marquee__track",
+          "left": 0,
+          "right": 3075
+        },
+        {
+          "tag": "ul",
+          "cls": "marquee__row",
+          "left": -234,
+          "right": 2840
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "left": -234,
+          "right": -48
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__item",
+          "left": -234,
+          "right": -95
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__sep",
+          "left": -63,
+          "right": -48
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "left": -16,
+          "right": 171
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__item",
+          "left": -16,
+          "right": 124
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "left": 1303,
+          "right": 1490
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__item",
+          "left": 1303,
+          "right": 1443
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__sep",
+          "left": 1475,
+          "right": 1490
+        }
+      ],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 765,
+        "docH": 5497,
+        "headlineOpacity": 0.8742
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -27,
+        "w": 1440,
+        "h": 900
+      },
+      "shotBytes": 266128,
+      "focus": {
+        "tag": "a",
+        "text": "Skip to content",
+        "outline": "solid 2px rgb(255, 77, 28)"
+      },
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/home-desktop.png"
+    },
+    {
+      "route": "/work",
+      "viewport": "desktop",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 765,
+        "docH": 3665,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -765,
+        "w": 1440,
+        "h": 792
+      },
+      "shotBytes": 439128,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/work-desktop.png"
+    },
+    {
+      "route": "/work/devpilot",
+      "viewport": "desktop",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 765,
+        "docH": 4366,
+        "headlineOpacity": 1
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -270,
+        "w": 1440,
+        "h": 900
+      },
+      "shotBytes": 616898,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/case-devpilot-desktop.png"
+    },
+    {
+      "route": "/lab",
+      "viewport": "desktop",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 765,
+        "docH": 3371,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 58,
+        "y": -23,
+        "w": 718,
+        "h": 539
+      },
+      "shotBytes": 42290,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/lab-desktop.png"
+    },
+    {
+      "route": "/about",
+      "viewport": "desktop",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 765,
+        "docH": 3261,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -765,
+        "w": 1440,
+        "h": 792
+      },
+      "shotBytes": 102017,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/about-desktop.png"
+    },
+    {
+      "route": "/contact",
+      "viewport": "desktop",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 765,
+        "docH": 2201,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -543,
+        "w": 1440,
+        "h": 720
+      },
+      "shotBytes": 67188,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/contact-desktop.png"
+    },
+    {
+      "route": "/nope",
+      "viewport": "desktop",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 765,
+        "docH": 1667,
+        "headlineOpacity": null
+      },
+      "sceneBox": null,
+      "shotBytes": 83483,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/404-desktop.png"
+    },
+    {
+      "route": "/",
+      "viewport": "tablet",
+      "overflowX": 0,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "marquee__track",
+          "left": 0,
+          "right": 2997
+        },
+        {
+          "tag": "ul",
+          "cls": "marquee__row",
+          "left": -206,
+          "right": 2790
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "left": -206,
+          "right": -25
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__item",
+          "left": -206,
+          "right": -71
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__sep",
+          "left": -39,
+          "right": -25
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "left": 709,
+          "right": 984
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__item",
+          "left": 709,
+          "right": 938
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__sep",
+          "left": 970,
+          "right": 984
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "left": 1016,
+          "right": 1260
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__item",
+          "left": 1016,
+          "right": 1213
+        }
+      ],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 945,
+        "docH": 5413,
+        "headlineOpacity": 0.757
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -450,
+        "w": 834,
+        "h": 1112
+      },
+      "shotBytes": 207246,
+      "focus": {
+        "tag": "a",
+        "text": "Skip to content",
+        "outline": "solid 2px rgb(255, 77, 28)"
+      },
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/home-tablet.png"
+    },
+    {
+      "route": "/work",
+      "viewport": "tablet",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 945,
+        "docH": 4126,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -945,
+        "w": 834,
+        "h": 778
+      },
+      "shotBytes": 453130,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/work-tablet.png"
+    },
+    {
+      "route": "/work/devpilot",
+      "viewport": "tablet",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 945,
+        "docH": 5111,
+        "headlineOpacity": 1
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -508,
+        "w": 834,
+        "h": 1112
+      },
+      "shotBytes": 438403,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/case-devpilot-tablet.png"
+    },
+    {
+      "route": "/lab",
+      "viewport": "tablet",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 945,
+        "docH": 4089,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 33,
+        "y": -55,
+        "w": 767,
+        "h": 575
+      },
+      "shotBytes": 88422,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/lab-tablet.png"
+    },
+    {
+      "route": "/about",
+      "viewport": "tablet",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 945,
+        "docH": 3463,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -945,
+        "w": 834,
+        "h": 778
+      },
+      "shotBytes": 109048,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/about-tablet.png"
+    },
+    {
+      "route": "/contact",
+      "viewport": "tablet",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 945,
+        "docH": 2830,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -310,
+        "w": 834,
+        "h": 890
+      },
+      "shotBytes": 42572,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/contact-tablet.png"
+    },
+    {
+      "route": "/nope",
+      "viewport": "tablet",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 684,
+        "docH": 1796,
+        "headlineOpacity": null
+      },
+      "sceneBox": null,
+      "shotBytes": 77635,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/404-tablet.png"
+    },
+    {
+      "route": "/",
+      "viewport": "mobile",
+      "overflowX": 0,
+      "offenders": [
+        {
+          "tag": "div",
+          "cls": "marquee__track",
+          "left": 0,
+          "right": 2876
+        },
+        {
+          "tag": "ul",
+          "cls": "marquee__row",
+          "left": -182,
+          "right": 2694
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "left": -182,
+          "right": -9
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__item",
+          "left": -182,
+          "right": -54
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__sep",
+          "left": -22,
+          "right": -9
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "left": 229,
+          "right": 392
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__sep",
+          "left": 378,
+          "right": 392
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "left": 424,
+          "right": 666
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__item",
+          "left": 424,
+          "right": 620
+        },
+        {
+          "tag": "span",
+          "cls": "marquee__sep",
+          "left": 652,
+          "right": 666
+        }
+      ],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 717,
+        "docH": 7013,
+        "headlineOpacity": 0.8505
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -116,
+        "w": 390,
+        "h": 844
+      },
+      "shotBytes": 311924,
+      "focus": {
+        "tag": "a",
+        "text": "Skip to content",
+        "outline": "solid 2px rgb(255, 77, 28)"
+      },
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/home-mobile.png"
+    },
+    {
+      "route": "/work",
+      "viewport": "mobile",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 717,
+        "docH": 6057,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -717,
+        "w": 390,
+        "h": 591
+      },
+      "shotBytes": 669303,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/work-mobile.png"
+    },
+    {
+      "route": "/work/devpilot",
+      "viewport": "mobile",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 717,
+        "docH": 6498,
+        "headlineOpacity": 1
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -258,
+        "w": 390,
+        "h": 844
+      },
+      "shotBytes": 582002,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/case-devpilot-mobile.png"
+    },
+    {
+      "route": "/lab",
+      "viewport": "mobile",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 717,
+        "docH": 4164,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 18,
+        "y": -13,
+        "w": 353,
+        "h": 265
+      },
+      "shotBytes": 117432,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/lab-mobile.png"
+    },
+    {
+      "route": "/about",
+      "viewport": "mobile",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 717,
+        "docH": 4556,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": -717,
+        "w": 390,
+        "h": 811
+      },
+      "shotBytes": 169974,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/about-mobile.png"
+    },
+    {
+      "route": "/contact",
+      "viewport": "mobile",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 717,
+        "docH": 3403,
+        "headlineOpacity": null
+      },
+      "sceneBox": {
+        "x": 0,
+        "y": 98,
+        "w": 390,
+        "h": 675
+      },
+      "shotBytes": 57513,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/contact-mobile.png"
+    },
+    {
+      "route": "/nope",
+      "viewport": "mobile",
+      "overflowX": 0,
+      "offenders": [],
+      "smallTargets": [],
+      "contrast": [],
+      "missingAlt": [],
+      "headingOrder": [],
+      "landmarks": {
+        "main": 1,
+        "footer": 1,
+        "h1": 1,
+        "skipLink": true
+      },
+      "midScroll": {
+        "y": 717,
+        "docH": 2184,
+        "headlineOpacity": null
+      },
+      "sceneBox": null,
+      "shotBytes": 91406,
+      "focus": null,
+      "errors": [],
+      "shot": "C:\\Users\\majhi\\itsmesujan-v2\\qa/404-mobile.png"
+    }
+  ]
+}
